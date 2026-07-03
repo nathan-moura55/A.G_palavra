@@ -22,7 +22,8 @@ $$f(I) = \sum_{i=1}^{x} \delta(I_i, P_i)$$
 Onde:
 * $I_i$ é o caractere na posição $i$ do indivíduo.
 * $P_i$ é o caractere na posição $i$ da palavra-alvo.
-* $\delta(I_i, P_i) = \begin{cases} 1, & \text{se } I_i = P_i \\ 0, & \text{se } I_i \neq P_i \end{cases}$
+* **$\delta(I_i, P_i) = 1$** se o caractere for igual.
+* **$\delta(I_i, P_i) = 0$** se o caractere for diferente.
 
 O objetivo do algoritmo é maximizar $f(I)$ até que $f(I) = x$.
 
