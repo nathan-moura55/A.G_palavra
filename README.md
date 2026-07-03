@@ -1,5 +1,3 @@
-readme_content = """# Algoritmo Genético - Palavras
-
 Este é um projeto em Python é um estudo inicial de **Algoritmo Genético (A.G.)** que analisa as gerações de palavra ou frase definida pelo usuário. O script inclui uma interface interativa no terminal, exibição de progresso em tempo real e uma análise gráfica final do histórico de desempenho (evolução do fitness) gerada diretamente no console.
 
 ## Como Funciona o Algoritmo Genético?
